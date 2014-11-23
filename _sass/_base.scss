@@ -1,0 +1,96 @@
+html {
+	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	height: 100%;
+	background: url(/10-normal.svg), url(/50-right.svg);
+	background-size: 15px, 75px;
+	line-height: 1.5em;
+}
+
+body {
+	min-height: 100%;
+	max-width: 54em;
+	margin: 0 auto;
+	padding: 2em 4em;
+	box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
+	background: white;
+}
+
+h1 > a {
+	color: inherit;
+	text-decoration: none;
+}
+
+#title {
+	background-image: url(/s.svg);
+	background-repeat: no-repeat;
+	background-size: 100px 100px;
+	background-position: 4px -15px;
+	padding: 35px 0 10px 20px;
+	margin: 0 0 0.5em 0;
+}
+
+#top {
+	margin-bottom: 2em;
+}
+
+#pages {
+	margin: 1em 0;
+	padding: 0;
+	list-style: none;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 1px 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#pages > li {
+	padding: 0.5em;
+}
+
+.postdate {
+	color: #aaa;
+}
+
+.postdate::before {
+	content: '— ';
+}
+
+.postlist > li {
+	margin: 0.5em 0;
+}
+
+h2 {
+	border-color: #ccc;
+	border-style: solid;
+	border-width: 1px 0;
+	margin: 1em 0;
+}
+
+h2 {
+	padding: 0.5em 0;
+}
+
+article > header > p {
+	float: right;
+}
+
+article > pre {
+	margin: 1em;
+	border: 1px solid #AAA;
+	border-radius: 0.3em;
+	background: #fcfcfc;
+	padding: 1em;
+	font-size: 0.9em;
+}
+
+.footnotes {
+	border-top: 1px solid #ccc;
+	font-size: 0.85em;
+}
+
+blockquote {
+	border-left: 4px solid #EEE;
+	margin: 1em 1em 1em 3em;
+	padding-left: 1em;
+}

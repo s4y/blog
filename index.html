@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<p>I’m a software engineer at <a href="https://www.okcupid.com/">OkCupid</a>. I live in NYC and I did batch[2] of <a href="http://www.hackerschool.com/">Hacker School</a>. You can find me on <a href="https://github.com/Sidnicious">GitHub</a> and <a href="https://twitter.com/Sidnicious">Twitter</a>, among other places.</p>
+
+<h2>Blog posts</h2>
+<ul class=postlist>
+{% for post in site.posts %}
+<li><a href="{{post.url}}">{{ post.title }}</a> <span class=postdate>{{ post.date page.date | date: "%b %-d, %Y" }}</span></li>
+{% endfor %}
+</ul>

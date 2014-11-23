@@ -1,0 +1,7 @@
+title: Sidnicious!
+baseurl: ""
+url: "http://sidnicio.us"
+paginate: 1
+paginate_path: "page:num/"
+
+markdown: kramdown

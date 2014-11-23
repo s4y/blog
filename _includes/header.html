@@ -1,0 +1,13 @@
+<header id=top>
+	<h1 id=title><a href="{{ site.baseurl }}/">{{ site.title }}</a></h1>
+
+	{% if site.pages.any? { |p| p.title } %}
+		<ul id=pages>
+			{% for page in site.pages %}
+			  {% if page.title %}
+			  <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+			  {% endif %}
+			{% endfor %}
+		</ul>
+	{% endif %}
+</header>
