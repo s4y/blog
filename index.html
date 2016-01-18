@@ -1,12 +1,17 @@
 ---
-layout: default
 ---
 
-<p>I’m a software engineer at <a href="https://www.okcupid.com/">OkCupid</a>. I live in NYC and I did batch[2] of <a href="http://www.hackerschool.com/">Hacker School</a>. You can find me on <a href="https://github.com/Sidnicious">GitHub</a> and <a href="https://twitter.com/Sidnicious">Twitter</a>, among other places.</p>
+{% capture bio %}
 
-<h2>Blog posts</h2>
-<ul class=postlist>
-{% for post in site.posts %}
-<li><a href="{{post.url}}">{{ post.title }}</a> <span class=postdate>{{ post.date page.date | date: "%b %-d, %Y" }}</span></li>
-{% endfor %}
-</ul>
+I write software and live in NYC. I’ve dabbled in [adding asynchronous programming to C++](https://github.com/Sidnicious/team), [putting a window manager in your browser](http://localhub.github.io/home/localhub-home-example.png), and [putting live HTML in your shell](https://github.com/Sidnicious/Hoisin). I was in batch[2] of [The Recurse Center](https://www.recurse.com/).
+
+My favorite programming concepts (for now) are coroutines, closures, and idempotence. I secretly dream of working on autonomous cars and strong AI.
+
+You can find me on [GitHub](https://github.com/Sidnicious), [Twitter](https://twitter.com/Sidnicious), [Keybase](https://keybase.io/sidney), and [Stack Overflow](https://stackoverflow.com/users/84745/sidnicious). You can email me at [sidney@s4y.us](mailto:sidney@s4y.us).
+
+{% endcapture %}
+
+<h1>I’m Sidney San Martín.</h1>
+<section id=bio>
+	{{ bio | markdownify }}
+</section>

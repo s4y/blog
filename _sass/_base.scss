@@ -1,18 +1,22 @@
 html {
 	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	height: 100%;
-	background: url(/10-normal.svg), url(/50-right.svg);
+	background: url(10-normal.svg), url(50-right.svg);
 	background-size: 15px, 75px;
 	line-height: 1.5em;
 }
 
 body {
-	min-height: 100%;
-	max-width: 54em;
+	max-width: 58em;
 	margin: 0 auto;
 	padding: 2em 4em;
 	box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
 	background: white;
+	box-sizing: border-box;
+}
+
+h1 {
+	margin: 1em 0;
 }
 
 h1 > a {
@@ -20,17 +24,29 @@ h1 > a {
 	text-decoration: none;
 }
 
-#title {
-	background-image: url(/s.svg);
-	background-repeat: no-repeat;
-	background-size: 100px 100px;
-	background-position: 4px -15px;
-	padding: 35px 0 10px 20px;
-	margin: 0 0 0.5em 0;
+nav {
+	float: right;
+	line-height: 2em;
 }
 
-#top {
-	margin-bottom: 2em;
+nav > a {
+	color: inherit;
+	font-weight: bold;
+	padding-left: 1em;
+}
+
+#title {
+	margin: 0;
+	line-height: 1em;
+}
+
+#bio {
+	background: url(me.png), url(squirrel.png);
+	background-size: auto 24em, 4em;
+	background-position: 1em 1em, left 11em bottom 1em;
+	background-repeat: no-repeat;
+	min-height: 20em;
+	padding: 1em 0 4em 10em;
 }
 
 #pages {
@@ -82,6 +98,8 @@ article > pre {
 	background: #fcfcfc;
 	padding: 1em;
 	font-size: 0.9em;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
 }
 
 .footnotes {
@@ -93,4 +111,37 @@ blockquote {
 	border-left: 4px solid #EEE;
 	margin: 1em 1em 1em 3em;
 	padding-left: 1em;
+}
+
+#top {
+	background: url(s.svg);
+	background-repeat: no-repeat;
+	background-size: 3em;
+	background-position: 0.5em 0.7em;
+	margin: -2em -4em 3em;
+	padding: 0.5em 4em;
+	border-bottom: 1px solid #ccc;
+}
+
+#home {
+	display: inline-block;
+	font-size: 1.5em;
+	line-height: 1.5em;
+	color: inherit;
+	text-decoration: inherit;
+	font-weight: bold;
+}
+
+@media (max-width: 450px) {
+	body {
+		padding: 1.5em;
+	}
+
+	#top {
+		margin: -1.5em -1em 2em;
+	}
+
+	blockquote {
+		margin-left: 1.5em;
+	}
 }
