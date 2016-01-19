@@ -1,0 +1,80 @@
+==================================================================
+https://keybase.io/sidney
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://s4y.us
+  * I am sidney (https://keybase.io/sidney) on keybase.
+  * I have a public key with fingerprint 5E68 5E60 EB87 3365 4DCB  0057 0DAA 1A4A B1D8 8291
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "5e685e60eb8733654dcb00570daa1a4ab1d88291",
+            "host": "keybase.io",
+            "key_id": "0DAA1A4AB1D88291",
+            "uid": "2546dcb5d8f2339460131b3226e6f700",
+            "username": "sidney"
+        },
+        "service": {
+            "hostname": "s4y.us",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1395885371,
+    "expire_in": 157680000,
+    "prev": "87a48bfc7ae4eeb79436a274f57aee6e6fe380ceb534f22ab8524866bb71c12f",
+    "seqno": 14,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG/MacGPG2 v2.0.22 (Darwin)
+
+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
+=NuQt
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sidney
+
+==================================================================
