@@ -4,6 +4,61 @@ https://keybase.io/sidney
 
 I hereby claim:
 
+  * I am an admin of http://sidnicio.us
+  * I am sidney (https://keybase.io/sidney) on keybase.
+  * I have a public key ASBp5LKpIbVFwWgRwWcqwjcL3yKJqAQI7sITdhMy16KKrAo
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01012ba0d60aa99320643f47eb787dc637821bc77cc89ccffbdbfd62124c1c22c1460a",
+            "host": "keybase.io",
+            "kid": "012069e4b2a921b545c16811c1672ac2370bdf2289a80408eec213761332d7a28aac0a",
+            "uid": "2546dcb5d8f2339460131b3226e6f700",
+            "username": "sidney"
+        },
+        "service": {
+            "hostname": "sidnicio.us",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.8"
+    },
+    "ctime": 1453230629,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1453230544,
+        "hash": "45af4aa7231529c0a06f9f041fb8480fc56a2f8bcee509c0863161c156b7317b279f063be343dd47648d4c0cc85441ae52656f7c96a02035b48f9e8a53d5a3d7",
+        "seqno": 351929
+    },
+    "prev": "8da9032277c3500348e1cb13ea9fa738b60a5576c1b00864245e62aefd590f90",
+    "seqno": 60,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+g6Rib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgaeSyqSG1RcFoEcFnKsI3C98iiagECO7CE3YTMteiiqwKp3BheWxvYWTFAvB7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxMmJhMGQ2MGFhOTkzMjA2NDNmNDdlYjc4N2RjNjM3ODIxYmM3N2NjODljY2ZmYmRiZmQ2MjEyNGMxYzIyYzE0NjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNjllNGIyYTkyMWI1NDVjMTY4MTFjMTY3MmFjMjM3MGJkZjIyODlhODA0MDhlZWMyMTM3NjEzMzJkN2EyOGFhYzBhIiwidWlkIjoiMjU0NmRjYjVkOGYyMzM5NDYwMTMxYjMyMjZlNmY3MDAiLCJ1c2VybmFtZSI6InNpZG5leSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic2lkbmljaW8udXMiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjgifSwiY3RpbWUiOjE0NTMyMzA2MjksImV4cGlyZV9pbiI6NTA0NTc2MDAwLCJtZXJrbGVfcm9vdCI6eyJjdGltZSI6MTQ1MzIzMDU0NCwiaGFzaCI6IjQ1YWY0YWE3MjMxNTI5YzBhMDZmOWYwNDFmYjg0ODBmYzU2YTJmOGJjZWU1MDljMDg2MzE2MWMxNTZiNzMxN2IyNzlmMDYzYmUzNDNkZDQ3NjQ4ZDRjMGNjODU0NDFhZTUyNjU2ZjdjOTZhMDIwMzViNDhmOWU4YTUzZDVhM2Q3Iiwic2Vxbm8iOjM1MTkyOX0sInByZXYiOiI4ZGE5MDMyMjc3YzM1MDAzNDhlMWNiMTNlYTlmYTczOGI2MGE1NTc2YzFiMDA4NjQyNDVlNjJhZWZkNTkwZjkwIiwic2Vxbm8iOjYwLCJ0YWciOiJzaWduYXR1cmUifaNzaWfEQCLPu8NqQ0ao4BUnwmrXwi2MMpEKtkX5PIei3rtJu85I22QulXmMVRJsTJMOl3MPUe44F2dmqTIZ9nchxsLI8wWoc2lnX3R5cGUgo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/sidney
+
+==================================================================
+
+==================================================================
+https://keybase.io/sidney
+--------------------------------------------------------------------
+
+I hereby claim:
+
   * I am an admin of http://s4y.us
   * I am sidney (https://keybase.io/sidney) on keybase.
   * I have a public key with fingerprint 5E68 5E60 EB87 3365 4DCB  0057 0DAA 1A4A B1D8 8291
