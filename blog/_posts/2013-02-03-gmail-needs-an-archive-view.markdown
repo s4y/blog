@@ -6,6 +6,7 @@ title: I wish Gmail had an archive view
 	.mail-view {
 		position: relative;
 		width: 700px;
+		max-width: 100%;
 		margin: 2em auto;
 	}
 	table.mail-label-legend {
@@ -42,7 +43,7 @@ My own All Mail view is dominated by public mailing lists, notifications, and my
 <td style="background-color: #00ff18; color: black">Archived mail</td></tr>
 	</table>
 	<a href="/assets/2013/02/my-all-mail.png" target="_blank">
-		<img src="/assets/2013/02/my-all-mail.png" alt="Most of the messages in view are notifications or from mailing list. A few are messages in my inbox. Only two are archived and not filed under any other label." width="700" height="520">
+		<img src="/assets/2013/02/my-all-mail.png" alt="Most of the messages in view are notifications or from mailing list. A few are messages in my inbox. Only two are archived and not filed under any other label." width="700">
 	</a>
 </div>
 
@@ -56,7 +57,7 @@ Work is similar:
 <td style="background-color: #670000;">Commits</td></tr>
 	</table>
 	<a href="/assets/2013/02/okc-all-mail.png" target="_blank">
-		<img src="/assets/2013/02/okc-all-mail.png" alt="Almost every message in view is feedback. Two are commits. No archived personal email is visible." width="700" height="520">
+		<img src="/assets/2013/02/okc-all-mail.png" alt="Almost every message in view is feedback. Two are commits. No archived personal email is visible." width="700">
 	</a>
 </div>
 

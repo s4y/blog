@@ -2,7 +2,7 @@
 layout: post
 title: Bookshelf perspective
 ---
-<img src="/assets/2011/11/Bookshelf.jpg" alt="" height="2179" />
+![](/assets/2011/11/Bookshelf.jpg)
 
 I just finished putting all the books I want on my bookshelf back on my bookshelf, and I decided that I should take a picture of it. It&rsquo;ll be cool to look at it in a few years and see which new books have showed up, and which old ones I&rsquo;ve finally gotten rid of.
 

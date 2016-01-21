@@ -93,6 +93,18 @@ article {
 		}
 	}
 
+	img {
+		display: block;
+		margin: 1em auto;
+		max-width: 100%;
+	}
+
+	figure {
+		margin: 0;
+		overflow: auto;
+		-webkit-overflow-scrolling: touch;
+	}
+
 	pre {
 		margin: 1em;
 		border: 1px solid #AAA;
@@ -112,7 +124,7 @@ article {
 
 blockquote {
 	border-left: 4px solid #EEE;
-	margin: 1em 1em 1em 3em;
+	margin: 1em 1em 1em 1em;
 	padding-left: 1em;
 }
 

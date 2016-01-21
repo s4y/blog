@@ -9,4 +9,4 @@ tags:
 - ux
 - wrong button
 ---
-<img src="/assets/2011/03/DSC_1199.jpg" alt="" width="800" height="530" />
+![](/assets/2011/03/DSC_1199.jpg)

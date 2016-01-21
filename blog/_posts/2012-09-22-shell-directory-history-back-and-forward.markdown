@@ -4,7 +4,7 @@ title: Directory history for your shell
 ---
 [Bash&rsquo;s directory stack](http://www.gnu.org/software/bash/manual/bashref.html#Directory-Stack-Builtins) is great but incomplete:
 
-<p style="text-align: center; margin: 2em 0"><img style="margin: -1em 0 -2.5em 0;" src="/assets/2012/09/browser-window.png" alt="What if your browser didn&rsquo;t have a forward button, only a back button?" width="514" height="386"></p>
+<p style="margin: 2em 0"><img style="margin: -1em auto -2.5em;" src="/assets/2012/09/browser-window.png" alt="What if your browser didn&rsquo;t have a forward button, only a back button?" width="514" ></p>
 
 Your browser lets you go back after you navigate somewhere, and forward again if you change your mind. Bash doesn&rsquo;t do either. The `pushd` and `popd` builtins give you a back button but no forward button. I fixed all that:
 

@@ -4,7 +4,7 @@ permalink: /title-insurance.html
 
 I’m buying my first apartment, and the process has had some interesting hiccups. The closing is less than a week away and I just got a final disclosure of costs from my bank. The breakdown includes this line:
 
-<div>
+<figure>
 	<style scoped>
 		table {
 			border-collapse: collapse;
@@ -25,7 +25,7 @@ I’m buying my first apartment, and the process has had some interesting hiccup
 			<td style="text-align: right">$3,138.00</td>
 		</tr>
 	</table>
-</div>
+</figure>
 
 Two immediate questions:
 
@@ -33,7 +33,7 @@ Two immediate questions:
 
 Google suggests that other people have read their disclosures, too:
 
-[<img style="display: block; margin: 1em auto;" src="/assets/2016/google_title_owner_pol.png" width="424" height="165">](https://www.google.com/search?q=Title+Owner+Pol(optional))
+[<img src="/assets/2016/google_title_owner_pol.png" width="424">](https://www.google.com/search?q=Title+Owner+Pol(optional))
 
 Let’s read some links. First conclusion: this is a **title insurance policy**. The disclosure shows that I’m buying two of them: one for the bank (for $544), and one for myself (for $3,138). The NY State Department of Financial Services [explains title insurance like this](http://www.dfs.ny.gov/consumer/homeown/home_title_ins.htm):
 
