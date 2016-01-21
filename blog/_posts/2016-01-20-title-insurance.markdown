@@ -129,7 +129,7 @@ First, a note on history.
 
 > Most of the industrialized world uses [land registration](https://en.wikipedia.org/wiki/Land_registration) systems for the transfer of land titles or interests in them. […] Governmental errors lead to monetary compensation to the person damaged by the error but that aggrieved party usually cannot recover the property.
 
-A “land registration system” is a goverment truth store for land ownership. Changes in ownership are committed irrevocably to the (public) register. The U.S. has a different system:
+A “land registration system” is a government truth store for land ownership. Changes in ownership are committed irrevocably to the (public) register. The U.S. has a different system:
 
 > …the vast majority of U.S. states have opted for a system of document recording in which no governmental official makes any determination of who owns the title or whether the instruments transferring it are valid.
 
