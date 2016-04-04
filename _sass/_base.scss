@@ -60,20 +60,33 @@ nav > a {
 	padding: 0.5em;
 }
 
-.postdate {
-	color: #aaa;
+#postlist {
+	list-style: none;
+	padding: 0;
+	margin: 2em;
 }
 
-.postdate::before {
-	content: '— ';
-}
-
-.postlist > li {
+#postlist > li {
 	margin: 0.5em 0;
+	font-size: 1.4em;
+}
+
+#postlist a {
+	color: black;
+	text-decoration: none;
+}
+
+#postlist > li > .postdate {
+	color: #aaa;
+	display: block;
+	font-size: 0.7em;
 }
 
 h2 {
-	font-size: 1.25em;
+	padding-bottom: 0.4em;
+	font-size: 1.4em;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 0.2em;
 }
 
 article {
