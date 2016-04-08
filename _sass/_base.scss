@@ -1,8 +1,5 @@
 html {
 	font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
-	height: 100%;
-	background: url(10-normal.svg), url(50-right.svg);
-	background-size: 15px, 75px;
 	line-height: 1.5em;
 }
 
@@ -10,9 +7,15 @@ body {
 	max-width: 58em;
 	margin: 0 auto;
 	padding: 2em 4em;
-	box-shadow: 0 0 1em rgba(0, 0, 0, 0.2);
-	background: white;
 	box-sizing: border-box;
+}
+
+body > h1 {
+	text-align: center;
+}
+
+h1#mynameis {
+	margin-top: 1.5em;
 }
 
 h1 > a {
@@ -63,7 +66,6 @@ nav > a {
 #postlist {
 	list-style: none;
 	padding: 0;
-	margin: 2em;
 }
 
 #postlist > li {
@@ -138,7 +140,7 @@ blockquote {
 	background-repeat: no-repeat;
 	background-size: 3em;
 	background-position: 0.5em 0.7em;
-	margin: -2em -4em 3em;
+	margin: -2em -4em 0;
 	padding: 0.5em 4em;
 	border-bottom: 1px solid #ccc;
 }
