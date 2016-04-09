@@ -129,11 +129,11 @@ First, a note on history.
 
 > Most of the industrialized world uses [land registration](https://en.wikipedia.org/wiki/Land_registration) systems for the transfer of land titles or interests in them. […] Governmental errors lead to monetary compensation to the person damaged by the error but that aggrieved party usually cannot recover the property.
 
-A “land registration system” is a government truth store for land ownership. Changes in ownership are committed irrevocably to the (public) register. The U.S. has a different system:
+A “land registration system” is a government [truth store](https://en.wikipedia.org/wiki/Single_Source_of_Truth) for land ownership. Changes in ownership are committed irrevocably to the (public) register. The U.S. has a different system:
 
 > …the vast majority of U.S. states have opted for a system of document recording in which no governmental official makes any determination of who owns the title or whether the instruments transferring it are valid.
 
-Ownership can change *retroactively*, and the title insurance industry developed in response. Now, the industry is self-sustaining through lobbying (emphasis mine):
+“[Document recording](https://en.wikipedia.org/wiki/Recording_(real_estate))” describes a system where the documents involved in a real estate transaction are photographed for public record. An interesting property of this system is that ownership can always be challenged in court, and can change *retroactively*. This property led to the development of the title insurance industry in the U.S.. Now, the industry is self-sustaining through lobbying (emphasis mine):
 
 > **At least 20 U.S. states have experimented with […] title registration systems at one time or another, but most have retreated to title recording under pressure from title insurers**. […] The U.S. title insurance industry has successfully opposed land registration systems by saying that they are vulnerable to fraud (a severe problem in most land registration jurisdictions) and that an inherently contingent property system more effectively protects property rights.<sup>[citation needed]</sup> While it is possible to fortify land registration systems to prevent the registration of forged deeds, the necessary countermeasures are complex and expensive.<sup>[citation needed]</sup>
 
