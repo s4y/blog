@@ -1,6 +1,6 @@
-title: Sidnicious
-description: I’m Sidney San Martín, a programmer in NYC who likes coroutines, closures and idempotence. I’ve worked for DeepTech, OkCupid, and Keybase and attended The Recurse Center in 2012.
+title: Sidney San Martín
 include: [".well-known"]
+excerpt_separator: ""
 defaults:
   -
     scope:
