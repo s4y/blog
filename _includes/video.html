@@ -1,0 +1,11 @@
+{% if include.width %}<div class="media" style="max-width: {{include.width}}px">{% endif %}
+<video{% if include.poster %} poster="/assets/{{include.file}}.jpg"{% endif %}{%
+	if include.width
+%} style="max-width: 100%"{%
+	endif
+\%} controls {{include.params}}>
+	<source src="/assets/{{include.file}}.webm">
+	<source src="/assets/{{include.file}}.mp4">
+</video>
+<script src="/js/videoPlayer.js"></script>
+{% if include.width %}</div>{% endif %}

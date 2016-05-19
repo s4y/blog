@@ -1,0 +1,31 @@
+.videoPlayer {
+	position: relative;
+}
+
+.videoPlayer > .overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.videoPlayer > .overlay::before {
+	content: '';
+	display: block;
+	width: 4em;
+	height: 4em;
+	background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="-0.16 0 1 1"><path fill="white" d="M 0 0 L 0.8 0.5 L 0 1 z"/></svg>') center/2em no-repeat rgba(0, 0, 0, 0.8);
+	border-radius: 10%;
+}
+
+.videoPlayer:not(.playing) > video {
+	opacity: 0.6;
+}
+
+.videoPlayer.playing > .overlay {
+	display: none;
+}

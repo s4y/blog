@@ -6,6 +6,9 @@
 {% if page.excerpt and page.excerpt != empty %}<meta name="description" content="{{ page.excerpt }}">{% endif %}
 
 <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+{% for css in page.extra-css %}
+<link rel="stylesheet" href="{{css}}">
+{% endfor %}
 <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
 
 <header id=top>
