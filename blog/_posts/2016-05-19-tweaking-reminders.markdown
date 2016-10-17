@@ -11,7 +11,7 @@ I’m on a trip with my Dad. On the first night away from home, I noticed that s
 
 Honestly, it’s fun to pop open Reminders alongside Date & Time Preferences on your computer, repeatedly click around the map, and watch all of the times in the Reminders app change to keep up.
 
-{% include video.html file="2016/tweaking-reminders/switcharoo" width=390 %}
+{% include video.html file="2016/tweaking-reminders/switcharoo" width=390 params="loop playsinline" %}
 
 For most of my reminders, though, I want “10 P.M.” to mean “10 P.M. local time, wherever I am”.
 
@@ -34,13 +34,13 @@ I’ll jump ahead to the fix now — if you want to discover other `.ics` file t
 
 First, on a computer (I haven’t found a way to perform this change on iOS, but it will sync to iOS devices), drag the reminders which you want to make time zone-free out of Reminders and into a Finder window (or your Desktop). You can select more than one, if you like.
 
-{% include video.html file="2016/tweaking-reminders/step_1" width=508 %}
+{% include video.html file="2016/tweaking-reminders/step_1" width=508 params="loop playsinline" %}
 
 **Important:** make a copy of this file. If anything goes wrong, you can drag the copy to Reminders in the Dock to get your original reminders back.
 
 Open the file in TextEdit (or another plain text editor — for non-programmers, TextEdit is probably best).
 
-{% include video.html file="2016/tweaking-reminders/step_2" width=662 %}
+{% include video.html file="2016/tweaking-reminders/step_2" width=662 params="loop playsinline" %}
 
 You’ll need to change three lines in the file. If you exported multiple todos, change them for each todo (there will be a separate `VTODO` section for each).
 
@@ -74,17 +74,17 @@ If you're in an adventurous mood, you can play with this value to set when you�
 
 Make these three changes per reminder and **save the file**.
 
-{% include video.html file="2016/tweaking-reminders/step_3" width=364 %}
+{% include video.html file="2016/tweaking-reminders/step_3" width=364 params="loop playsinline" %}
 
 Back in Reminders app, delete all of the items you just modified. **This is critical:** on my machine, if I don't delete them, they keep their old time zones.
 
 Open the modified `.ics` file with Reminders, either by dragging the file onto its Dock icon or by right clicking and using Open With…).
 
-{% include video.html file="2016/tweaking-reminders/step_4" width=672 %}
+{% include video.html file="2016/tweaking-reminders/step_4" width=672 params="loop playsinline" %}
 
 Finally (whew!), when Reminders asks, select the list you want the modified todo(s) to live in (normally the same list you exported them from), and click OK.
 
-{% include video.html file="2016/tweaking-reminders/step_5" width=516 %}
+{% include video.html file="2016/tweaking-reminders/step_5" width=516 params="loop playsinline" %}
 
 If everything went well, your modified reminders should look the same! If you use iCloud or another hosted calendar, they’ll sync to your other devices. An easy way to test is to change your computer or phone’s time zone: if the reminder’s time stays the same, it worked! You can make a fresh, un-tweaked reminder in the same list and compare how they behave when you switch time zones.
 
