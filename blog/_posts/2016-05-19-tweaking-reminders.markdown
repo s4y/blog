@@ -5,6 +5,12 @@ extra-css:
  - /css/videoPlayer.css
 ---
 
+<aside>
+<p><b>Super important warning:</b> This solution hits a bug in iOS which makes it unusable.</p>
+
+<p>When you mark a recurring reminder as completed, the next instance of the reminder is created based on UTC time — so if I'm in a UTC-5 time zone, marking a 9 A.M. floating reminder as completed will create the next instance at 9 A.M. UTC… which is 4 A.M. local time. The Mac version of Reminders doesn't have this issue. I filed a bug with Apple (rdar://26721485) but, understandably, it hasn't gotten any attention.</p>
+</aside>
+
 (If you just want to know how to make items in Reminders keep the same clock time between time zones, feel free to skip to [the fix](#the-fix).)
 
 I’m on a trip with my Dad. On the first night away from home, I noticed that some recurring reminders on my phone weren’t pinging me at the right times. The time when the notifications appeared matched *New York* time, and we were somewhere else. The times displayed in the Reminders app were also shifted to show the local equivalents of the times I set back home.
